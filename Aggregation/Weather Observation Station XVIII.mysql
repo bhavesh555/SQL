@@ -1,0 +1,15 @@
+Link-https://www.hackerrank.com/challenges/weather-observation-station-18/problem?isFullScreen=true
+
+WITH POINTS AS(
+    SELECT
+        MIN(LAT_N) AS A,
+        MIN(LONG_W) AS B,
+        MAX(LAT_N) AS C,
+        MAX(LONG_W) AS D
+    FROM
+        STATION
+)
+SELECT
+    ROUND((C-A)+(D-B),4)
+FROM
+    POINTS
