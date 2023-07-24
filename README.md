@@ -14,7 +14,8 @@ __________________________________________________
 
 
 ## 🔗 Platforms for Practicing
-@**LeetCode**
-@**Hackerrank**
+![Hackerrank](https://img.shields.io/badge/-Hackerrank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white)
+
+![LeetCode](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06)
 
 
