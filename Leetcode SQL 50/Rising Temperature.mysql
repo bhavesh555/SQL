@@ -1,0 +1,4 @@
+Link-https://leetcode.com/problems/rising-temperature/description/?envType=study-plan-v2&envId=top-sql-50
+
+SELECT w2.id from Weather w1,Weather w2
+WHERE datediff(w2.recordDate, w1.recordDate) = 1 AND w2.temperature > w1.temperature;
